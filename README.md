@@ -192,7 +192,7 @@ Figure 1: Output files for the rsmD_NZ_CP065044 gene.
 <br />
 <p align="center">
   <img 
-    src="https://github.com/asadprodhan/gene_seq_extraction_from_multiple_genomes/blob/main/Extracted_sequences.PNG"
+    src="https://github.com/asadprodhan/Gene_seq_extraction_from_multiple_genomes/blob/main/Extracted_sequences_v2.png"
   >
 </p>
 <p align = "center">
