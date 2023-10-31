@@ -123,6 +123,9 @@ dos2unix *
 ### III. Run the script as follows
 
 
+[DOWNLOAD the script here](https://github.com/asadprodhan/Gene_seq_extraction_from_multiple_genomes/blob/main/gene_seq_extraction_auto_v8.sh) 
+
+
 ```
 ./name-of-the-script.sh
 ```
