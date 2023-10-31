@@ -103,8 +103,32 @@ done
 ## **Output files**
 
 
+<br />
+<p align="center">
+  <img 
+    src="https://github.com/asadprodhan/gene_seq_extraction_from_multiple_genomes/blob/main/Output_files.PNG"
+  >
+</p>
+<p align = "center">
+Figure 1: Output files.
+</p>
+
+
 ## The following file contains the 16s_rRNA_gene sequences from all the supplied Pectbacterium genomes  
 
 
+
+<br />
+<p align="center">
+  <img 
+    src="https://github.com/asadprodhan/gene_seq_extraction_from_multiple_genomes/blob/main/Extracted_sequences.PNG"
+  >
+</p>
+<p align = "center">
+Figure 2. 16s rRNA gene sequences extracted from all the supplied Pectobacterium genomes
+</p>
+
+
+# The end
 
 
