@@ -110,7 +110,7 @@ done
   >
 </p>
 <p align = "center">
-Figure 1: Output files.
+Figure 1: Output files for the 16s rRNA gene.
 </p>
 
 
@@ -129,6 +129,6 @@ Figure 2. 16s rRNA gene sequences extracted from all the supplied Pectobacterium
 </p>
 
 
-# The end
+## The end
 
 
