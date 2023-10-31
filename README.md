@@ -43,7 +43,13 @@ conda install -c bioconda bedtools
 ```
 
 
-## **Steps**
+<br />
+
+
+## **Methods**
+
+
+<br />
 
 
 ## Prepare the genome sequences
@@ -71,6 +77,9 @@ makeblastdb -in concatenated_genomes.fasta -out concatenated_genomes_db -dbtype 
 ### IV. Move all the concatenated_genomes_db.* files into the concatenated_genomes_db directory
 
 
+<br />
+
+
 ## Prepare the gene sequences
 
 
@@ -80,6 +89,9 @@ makeblastdb -in concatenated_genomes.fasta -out concatenated_genomes_db -dbtype 
 > All gene sequence file names must have _gene.fasta extension
 
 > 16s_rRNA_gene.fasta
+
+
+<br />
 
 
 ## Run the extraction
@@ -147,6 +159,10 @@ done
 ```
 
 
+<br />
+
+
+
 ## **Output files**
 
 
@@ -159,6 +175,9 @@ done
 <p align = "center">
 Figure 1: Output files for the 16s rRNA gene.
 </p>
+
+
+<br />
 
 
 ### The following file contains the 16s_rRNA_gene sequences from all the supplied Pectbacterium genomes  
