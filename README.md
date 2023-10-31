@@ -88,7 +88,7 @@ makeblastdb -in concatenated_genomes.fasta -out concatenated_genomes_db -dbtype 
 
 > All gene sequence file names must have _gene.fasta extension
 
-> 16s_rRNA_gene.fasta
+> rsmD_NZ_CP065044_gene.fasta
 
 
 <br />
@@ -178,14 +178,14 @@ done
   >
 </p>
 <p align = "center">
-Figure 1: Output files for the 16s rRNA gene.
+Figure 1: Output files for the rsmD_NZ_CP065044 gene.
 </p>
 
 
 <br />
 
 
-### The following file (16s_rRNA_gene_blastn_hits_seqs.fasta) contains the 16s_rRNA_gene sequences from all the supplied Pectbacterium genomes  
+### The following file (rsmD_NZ_CP065044_gene_blastn_hits_seqs.fasta) contains the rsmD_NZ_CP065044_gene sequences from all the supplied genomes  
 
 
 
@@ -196,7 +196,7 @@ Figure 1: Output files for the 16s rRNA gene.
   >
 </p>
 <p align = "center">
-Figure 2. 16s rRNA gene sequences extracted from all the supplied Pectobacterium genomes
+Figure 2. rsmD_NZ_CP065044 gene sequences extracted from all the supplied genomes
 </p>
 
 
