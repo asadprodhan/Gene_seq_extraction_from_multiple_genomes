@@ -188,7 +188,7 @@ Figure 1: Output files for the rsmD_NZ_CP065044 gene.
 ### The following file (rsmD_NZ_CP065044_gene_blastn_hits_seqs.fasta) contains the rsmD_NZ_CP065044_gene sequences from all the supplied genomes  
 
 
-> Note how the blastn hit headers have been named using the corresponding gene and genome names
+> Note how the headers of the blastn hits have been named using the corresponding gene and genome names
 
 
 > This is for the convenience of tracking the files
