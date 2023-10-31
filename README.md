@@ -1,9 +1,23 @@
 # **How do I automate extracting multiple gene sequences from multiple genomes?** <br />
 
 
-Tools
-create a conda environment as follows
+### **Asad Prodhan PhD** 
+
+**https://asadprodhan.github.io/**
+
+<br />
+
+
+## **Tools**
+
+### Create a conda environment as follows
+
+
+```
 conda create -n gene_seq_extraction
+```
+
+
 activate your conda environment
 conda activate gene_seq_extraction
 install blast 
