@@ -46,7 +46,10 @@ conda install -c bioconda bedtools
 ## **Steps**
 
 
-- ### Concatenate all the genomes into a single fasta file
+## Prepare the genome sequences
+
+
+### I. Concatenate all the genomes into a single fasta file
 
 
 ```
@@ -54,7 +57,7 @@ cat *.fasta > concatenated_genomes.fasta
 ```
 
 
-- ### Convert pecto_genomes.fasta into a blast database
+### II. Convert the concatenated_genomes.fasta into a blast database
 
 
 ```
@@ -62,7 +65,16 @@ makeblastdb -in concatenated_genomes.fasta -out concatenated_genomes_db -dbtype 
 ```
 
 
-- ### Name your genes of interest as follows
+### III. Make a directory named "concatenated_genomes_db"
+
+
+### IV. Move all the concatenated_genomes_db.* files into the concatenated_genomes_db directory
+
+
+## Prepare the gene sequences
+
+
+### I. Name your genes of interest as follows
 
 
 > All gene sequence file names must have _gene.fasta extension
@@ -70,10 +82,13 @@ makeblastdb -in concatenated_genomes.fasta -out concatenated_genomes_db -dbtype 
 > 16s_rRNA_gene.fasta
 
 
-- ### Put all the files along with the follwoing script in the same directory 
+## Run the extraction
 
 
-- ### Run the following commands one-by-one
+### I. Put all the sequence files along with the follwoing script in the same directory 
+
+
+### II. Run the following commands one-by-one
 
 
 ```
@@ -93,7 +108,7 @@ dos2unix *
 
 
 
-- ### Run the script as follows
+### III. Run the script as follows
 
 
 ```
