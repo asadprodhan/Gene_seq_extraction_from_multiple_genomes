@@ -10,7 +10,7 @@
 
 ## **Tools**
 
-### Create a conda environment as follows
+- ### Create a conda environment as follows
 
 
 ```
@@ -18,16 +18,41 @@ conda create -n gene_seq_extraction
 ```
 
 
-activate your conda environment
-conda activate gene_seq_extraction
-install blast 
-conda install -c bioconda blast
-install bedtools
-conda install -c bioconda bedtools
+- ### Activate your conda environment
 
-Steps
-concatenate all the genomes into a single fasta file
+
+```
+conda activate gene_seq_extraction
+```
+
+
+- ### Install blast
+
+
+```
+conda install -c bioconda blast
+```
+
+
+- ### Install bedtools
+
+
+```
+conda install -c bioconda bedtools
+```
+
+
+## **Steps**
+
+
+- ### Concatenate all the genomes into a single fasta file
+
+
+  ```
 cat Pectbacterium* > pecto_genomes.fasta
+```
+
+
 Convert pecto_genomes.fasta into a blast database
 makeblastdb -in pecto_genomes.fasta -out pecto_genomes_db -dbtype 'nucl' -hash_index
 Name your genes of interest as follows
