@@ -191,7 +191,7 @@ Figure 1: Output files for the rsmD_NZ_CP065044 gene.
 > Note how the headers of the blastn hits have been named using the corresponding gene and genome names
 
 
-> This is for the convenience of tracking the files
+> This is for the convenience of tracking information
 
 
 <br />
