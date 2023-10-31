@@ -8,7 +8,8 @@
 <br />
 
 
-## **Tools**
+## **Required tools**
+
 
 - ### Create a conda environment as follows
 
@@ -63,11 +64,21 @@ makeblastdb -in pecto_genomes.fasta -out pecto_genomes_db -dbtype 'nucl' -hash_i
 
 - ### Name your genes of interest as follows
 
+> All gene sequence file names must have _gene.fasta extension
 
 > 16s_rRNA_gene.fasta
 
 
-- ### Run the following script
+- ### Put all the files along with the follwoing script in the same directory 
+  
+
+- ### Run the script as follows
+
+
+```
+./name-of-the-script.sh
+```
+
 
 
 ```
