@@ -50,7 +50,7 @@ conda install -c bioconda bedtools
 
 
 ```
-cat Pectbacterium* > pecto_genomes.fasta
+cat *.fasta > concatenated_genomes.fasta
 ```
 
 
@@ -58,11 +58,12 @@ cat Pectbacterium* > pecto_genomes.fasta
 
 
 ```
-makeblastdb -in pecto_genomes.fasta -out pecto_genomes_db -dbtype 'nucl' -hash_index
+makeblastdb -in concatenated_genomes.fasta -out concatenated_genomes_db -dbtype 'nucl' -hash_index
 ```
 
 
 - ### Name your genes of interest as follows
+
 
 > All gene sequence file names must have _gene.fasta extension
 
@@ -70,7 +71,27 @@ makeblastdb -in pecto_genomes.fasta -out pecto_genomes_db -dbtype 'nucl' -hash_i
 
 
 - ### Put all the files along with the follwoing script in the same directory 
-  
+
+
+- ### Run the following commands one-by-one
+
+
+```
+chmod +x *
+```
+
+
+> This will make the files executable
+
+
+```
+dos2unix *
+```
+
+
+> This will make sure that all the files are in unix format
+
+
 
 - ### Run the script as follows
 
