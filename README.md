@@ -74,7 +74,17 @@ makeblastdb -in concatenated_genomes.fasta -out concatenated_genomes_db -dbtype 
 ### III. Make a directory named "concatenated_genomes_db"
 
 
+```
+mkdir concatenated_genomes_db
+``` 
+
+
 ### IV. Move all the concatenated_genomes_db.* files into the concatenated_genomes_db directory
+
+
+```
+mv concatenated_genomes_db* concatenated_genomes_db 
+``` 
 
 
 <br />
